@@ -20,6 +20,11 @@ a{
 li{
     list-style: none;
 }
+.btn{
+    width: 224px;
+    height: 54px;
+    border-radius: 42px;
+}
 /* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
         header ,menu section
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=---= */
@@ -79,4 +84,104 @@ nav{
     padding: 8px 20px 8px 20px;
     width: 100%;
     height: 100%;
+}
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+        banner section
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=---= */
+.fitnes-banner{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 270px;
+    align-items: center;
+    /* margin-top: 96px; */
+    width: 1060px;
+    margin: auto;
+}
+.fitnes-banner-text{
+    width: 520px;
+    height: 442px;
+}
+.fitnes-banner-text h1{
+    font-size: 78px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    margin-bottom: 28px;
+}
+.fitnes-banner-text p{
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 28px;
+}
+.fitnes-banner-img{
+margin-top: 90px;
+position: relative;
+}
+
+.fitnes-banner-img img{
+    width: 349px;
+    height: 580px;
+}
+/* card section */
+.big-card{
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    width: 193px;
+    height: 98px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+}
+.big-card h3{
+    margin: auto;
+    margin-top: 17px;
+    width: 116px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 900;
+}
+.big-card p{
+    margin-top: 5px;
+    margin: auto;
+    width: 146px;
+    height: 20px;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.65);
+}
+.min-card{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    width: 206px;
+    height: 96px;
+}
+.min-card h3{
+    margin: auto;
+    margin-top: 17px;
+    width: 116px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 900;
+}
+.min-card p{
+    margin-top: 5px;
+    margin: auto;
+    width: 146px;
+    height: 20px;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.65);
+}
+.animition{
+    border-radius: 45%;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(230, 83, 60) ;
 }
