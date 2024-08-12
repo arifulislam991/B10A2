@@ -1,0 +1,20 @@
+@media screen and (min-width:768px) and (max-width:1024px){
+    .fitnes-banner{
+        grid-template-columns: repeat(1,1fr);
+        gap: 0;
+    }
+    .header-container{
+        height: auto;
+        width: auto;
+    }
+    .fitness-menu{
+        justify-content: space-around;
+    }
+    .fitnes-banner-text{
+        margin: auto;
+        margin-top: 121px;
+    }
+    .fitnes-banner-img{
+        margin: auto;
+    }
+}

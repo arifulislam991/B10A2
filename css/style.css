@@ -24,6 +24,8 @@ li{
     width: 224px;
     height: 54px;
     border-radius: 42px;
+    border-color: rgb(230, 83, 60);
+    
 }
 /* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
         header ,menu section
@@ -32,7 +34,7 @@ li{
     margin:0 auto;
     height: 715px;
     width: 1440px;
-    background :linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    background :linear-gradient(180.00deg, rgb(0, 0, 0),rgba(95, 95, 95, 0) 100%);
 }
 nav{
     
@@ -114,6 +116,16 @@ nav{
     font-size: 16px;
     margin-bottom: 28px;
 }
+button a{
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: 600;
+}
+.btn-normal{
+    border-color: rgb(255, 255, 255);
+    background: transparent;
+}
 .fitnes-banner-img{
 margin-top: 90px;
 position: relative;
@@ -126,13 +138,14 @@ position: relative;
 /* card section */
 .big-card{
     position: absolute;
-    top: 20%;
-    left: 60%;
+    top: 18%;
+    left: 65%;
     width: 193px;
     height: 98px;
     backdrop-filter: blur(20px);
     background: rgba(255, 255, 255, 0.1);
     border-radius: 12px;
+    padding-left: 23px;
 }
 .big-card h3{
     margin: auto;
@@ -153,13 +166,19 @@ position: relative;
     color: rgba(255, 255, 255, 0.65);
 }
 .min-card{
+    position: absolute;
+    right: 80%;
+    bottom: 20%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     border-radius: 12px;
+    gap: 12px;
     backdrop-filter: blur(20px);
     background: rgba(48, 48, 48, 0.54);
     width: 206px;
     height: 96px;
+    padding-left: 23px;
+    
 }
 .min-card h3{
     margin: auto;
@@ -180,8 +199,20 @@ position: relative;
     color: rgba(255, 255, 255, 0.65);
 }
 .animition{
+    margin:auto ;
     border-radius: 45%;
     width: 40px;
     height: 40px;
     background-color: rgb(230, 83, 60) ;
+}
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+        main section
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=---= */
+.main-section{
+    width:1440px;
+    margin: auto;
+    background: rgb(0, 0, 0);
+}
+.container{
+    
 }
