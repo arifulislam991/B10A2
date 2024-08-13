@@ -208,6 +208,10 @@ position: relative;
 /* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
         main section
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=---= */
+
+
+/* habits section */
+
 .main-section{
     width:1440px;
     margin: auto;
@@ -215,4 +219,58 @@ position: relative;
 }
 .container{
     
+}
+.habits-section{
+    margin: auto;
+    width: 1044px;
+}
+.habits-title{
+    padding: 100px 0;
+    margin: auto;
+    width: 671px;
+    height: 120px;
+}
+.habits-title h2{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+.habits-title p{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom:58px ;
+}
+.habits-item{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-bottom:100px ;
+}
+.habits-img-item{
+    
+    width: 231px;
+    height: 274px;
+}
+.habits-img{
+    padding-left:28px ;
+    margin-bottom: 30px;
+}
+.habits-img-item img{
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 45%;
+}
+.habits-img-item h4{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+}
+.habits-img-item p{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    font-size: 14px;
 }
