@@ -218,12 +218,12 @@ position: relative;
     background: rgb(0, 0, 0);
 }
 .container{
-    
-}
-.habits-section{
     margin: auto;
     width: 1044px;
 }
+/* .habits-section{
+
+} */
 .habits-title{
     padding: 100px 0;
     margin: auto;
@@ -273,4 +273,96 @@ position: relative;
     color: rgba(255, 255, 255, 0.5);
     font-weight: 400;
     font-size: 14px;
+}
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+        run section
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=---= */
+.run-container{
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    width: 1060px;
+    /* height: 370px; */
+}
+.run-item{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+    margin-left: 54px;
+    margin-bottom: 78px;
+}
+.run-text{
+    margin: 40px;
+    width: 443px;
+    height: 290px;
+}
+.run-text h2{
+    font-weight: 900;
+    font-size: 48px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 14px;
+}
+.run-text p{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 44px;
+}
+.run-img img{
+    margin: 30px;
+    margin-top: 32px;
+    margin-bottom: 29px;
+    border-radius: 18px;
+    width: 366px;
+    height: 312px;
+}
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+        BMI section
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=---= */
+.bmi-calculator{
+    margin-top: 88px;
+    background: rgb(34, 34, 34);
+    width: 1440px;
+    height: 487px;
+}
+.bmi-title{
+    margin: auto;
+    width: 671px;
+    height: 120px;
+}
+.bmi-title h2{
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-size: 48px;
+    margin-bottom: 14px;
+}
+.bmi-title p{
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    font-size: 18px;
+}
+.bmi-chart-title{
+    padding: 52px 170px;
+}
+.bmi-chart-title h3{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 900;
+}
+.bmi-chart{
+    margin-top: 52px;
+}
+.bmi-chart table{
+    border-collapse: collapse;
+    width: 310px;
+}
+.th{
+    color: rgb(255, 255, 255);
+}
+th,td{
+    color: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    text-align: center;
 }

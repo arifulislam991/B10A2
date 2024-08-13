@@ -30,7 +30,15 @@
         margin-bottom: 40px;
     }
     .habits-item{
+        margin-left: 150px;
         grid-template-columns: repeat(2,2fr);
+    }
+    /*=-=-=-=-=-= run section =-=-=-=-=-= */
+    .run-text{
+        margin-left: 0;
+    }
+    .run-container{
+        width: 1024px;
     }
 
 }
