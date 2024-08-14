@@ -411,3 +411,104 @@ th,td{
 .cls{
     display: none;
 }
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+        our team section
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=---= */
+.our-team-section{
+    width: 100%;
+}
+.team-container{
+    width: 80%;
+    height: 782px;
+    margin: auto;
+}
+.team-title h2{
+    margin-top: 88px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+.team-title p{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 18px;
+    font-weight: 400;
+}
+.our-team{
+    margin-top: 58px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 18px;
+    height: 604px;
+}
+.team-member{
+    margin: auto;
+}
+.team-member img{
+    border-radius: 18px;
+    width: 310px;
+    height: 260px;
+}
+/* ==--=member title position */
+.member-1{
+    position: relative;
+}
+.img-title-1{
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+}
+.member-2{
+    position: relative;
+}
+.img-title-2{
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+}
+.member-3{
+    position: relative;
+}
+.img-title-3{
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+}
+.member-4{
+    position: relative;
+}
+.img-title-4{
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+}
+.member-5{
+    position: relative;
+}
+.img-title-5{
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+}
+.member-6{
+    position: relative;
+}
+.img-title-6{
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+}
+.img-title h5{
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 600;
+}
+.img-title p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+}
